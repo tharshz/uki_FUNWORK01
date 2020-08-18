@@ -285,3 +285,173 @@ $(document).ready(function () {
         });
     });
 });
+
+$(document).ready(function () {
+    SC.stream('/tracks/64297109', function (sound) {
+        //function start for button
+        $('#start2').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+        // stop for function
+
+        $('#stop2').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+    });
+});
+$(document).ready(function () {
+  SC.stream('/tracks/517722948', function (sound) {
+      //function start for button
+      $('#start3').click(function (e) {
+          e.preventDefault();
+          sound.start();
+      });
+      // stop for function
+
+      $('#stop3').click(function (e) {
+          e.preventDefault();
+          sound.stop();
+      });
+  });
+});
+
+$(document).ready(function () {
+  SC.stream('/tracks/681494018', function (sound) {
+      //function start for button
+      $('#start4').click(function (e) {
+          e.preventDefault();
+          sound.start();
+      });
+      // stop for function
+
+      $('#stop4').click(function (e) {
+          e.preventDefault();
+          sound.stop();
+      });
+  });
+});
+$(document).ready(function () {
+  SC.stream('/tracks/344884129', function (sound) {
+      //function start for button
+      $('#start5').click(function (e) {
+          e.preventDefault();
+          sound.start();
+      });
+      // stop for function
+
+      $('#stop5').click(function (e) {
+          e.preventDefault();
+          sound.stop();
+      });
+  });
+});
+$(document).ready(function () {
+  SC.stream('/tracks/265579680', function (sound) {
+      //function start for button
+      $('#start6').click(function (e) {
+          e.preventDefault();
+          sound.start();
+      });
+      // stop for function
+
+      $('#stop6').click(function (e) {
+          e.preventDefault();
+          sound.stop();
+      });
+  });
+});
+//beat songs
+$(document).ready(function () {
+  SC.stream('/tracks/550158225', function (sound) {
+      //function start for button
+      $('#start11').click(function (e) {
+          e.preventDefault();
+          sound.start();
+      });
+      // stop for function
+
+      $('#stop11').click(function (e) {
+          e.preventDefault();
+          sound.stop();
+      });
+  });
+});
+
+$(document).ready(function () {
+  SC.stream('/tracks/168166232', function (sound) {
+      //function start for button
+      $('#start12').click(function (e) {
+          e.preventDefault();
+          sound.start();
+      });
+      // stop for function
+
+      $('#stop12').click(function (e) {
+          e.preventDefault();
+          sound.stop();
+      });
+  });
+});
+$(document).ready(function () {
+SC.stream('/tracks/235888867', function (sound) {
+    //function start for button
+    $('#start13').click(function (e) {
+        e.preventDefault();
+        sound.start();
+    });
+    // stop for function
+
+    $('#stop13').click(function (e) {
+        e.preventDefault();
+        sound.stop();
+    });
+});
+});
+
+$(document).ready(function () {
+SC.stream('/tracks/71180251', function (sound) {
+    //function start for button
+    $('#start14').click(function (e) {
+        e.preventDefault();
+        sound.start();
+    });
+    // stop for function
+
+    $('#stop14').click(function (e) {
+        e.preventDefault();
+        sound.stop();
+    });
+});
+});
+$(document).ready(function () {
+SC.stream('/tracks/344884129', function (sound) {
+    //function start for button
+    $('#start15').click(function (e) {
+        e.preventDefault();
+        sound.start();
+    });
+    // stop for function
+
+    $('#stop15').click(function (e) {
+        e.preventDefault();
+        sound.stop();
+    });
+});
+});
+$(document).ready(function () {
+SC.stream('/tracks/265579680', function (sound) {
+    //function start for button
+    $('#start16').click(function (e) {
+        e.preventDefault();
+        sound.start();
+    });
+    // stop for function
+
+    $('#stop16').click(function (e) {
+        e.preventDefault();
+        sound.stop();
+    });
+});
+});
